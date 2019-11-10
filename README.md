@@ -1,0 +1,2 @@
+# SpringMVCBasicAuthentication
+ SpringMVCBasicAuthentication via JDBC
