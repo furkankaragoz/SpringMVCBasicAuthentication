@@ -2,36 +2,36 @@
  SpringMVCBasicAuthentication via JDBC
  
 
- 1-)User enters username and password in the corresponding fields.
- 2-)Routing to successful or unsuccessful screens after checking over database.
+ 1-)User enters username and password in the corresponding fields.<br>
+ 2-)Routing to successful or unsuccessful screens after checking over database.<br>
  
  
  
  
---MYDATABASE DLL-- 
+--MYDATABASE DLL-- <br>
  
-CREATE TABLE USERS 
-(
-  ID NUMBER 
-, FIRST_NAME VARCHAR2(20 BYTE) 
-, LAST_NAME VARCHAR2(20 BYTE) 
-, USER_NAME VARCHAR2(20 BYTE) 
-, PASSWORD VARCHAR2(20 BYTE) 
-, LAST_LOGIN_DATE DATE 
-) 
-LOGGING 
-TABLESPACE USERS 
-PCTFREE 10 
-INITRANS 1 
-STORAGE 
+CREATE TABLE USERS <br>
+(<br>
+  ID NUMBER <br>
+, FIRST_NAME VARCHAR2(20 BYTE) <br>
+, LAST_NAME VARCHAR2(20 BYTE) <br>
+, USER_NAME VARCHAR2(20 BYTE) <br>
+, PASSWORD VARCHAR2(20 BYTE) <br>
+, LAST_LOGIN_DATE DATE <br>
+) <br>
+LOGGING <br>
+TABLESPACE USERS <br>
+PCTFREE 10 <br>
+INITRANS 1 <br>
+STORAGE <br>
 ( 
-  INITIAL 65536 
-  NEXT 1048576 
-  MINEXTENTS 1 
-  MAXEXTENTS UNLIMITED 
-  BUFFER_POOL DEFAULT 
-) 
-NOCOMPRESS 
-NOPARALLEL;
+  INITIAL 65536 <br>
+  NEXT 1048576 <br>
+  MINEXTENTS 1 <br>
+  MAXEXTENTS UNLIMITED <br>
+  BUFFER_POOL DEFAULT <br>
+) <br>
+NOCOMPRESS <br>
+NOPARALLEL;<br>
 
 ---------------

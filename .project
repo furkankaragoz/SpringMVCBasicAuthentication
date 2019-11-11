@@ -42,7 +42,7 @@
 		<link>
 			<name>WebContent/WEB-INF/lib/ojdbc6_g.jar</name>
 			<type>1</type>
-			<location>C:/Users/ENGINEER/Downloads/15.10.19SpringMVCSinifIcıAktiviteUserNamePasswordDB/ojdbc6_g.jar</location>
+			<location>C:/Program Files/Apache Software Foundation/Tomcat 9.0/lib/ojdbc6_g.jar</location>
 		</link>
 		<link>
 			<name>WebContent/WEB-INF/lib/spring-aop-5.2.0.RELEASE-javadoc.jar</name>
